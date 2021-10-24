@@ -19,21 +19,23 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
   list-style: none;
-  width: 90%;
+  width: 88%;
+  top: 0;
   position: absolute;
   text-decoration: none;
 }
 .nav_links li {
-  margin-left: 10px;
-  padding: 12px 20px;
+  margin-left: 12px;
+  padding: 8px 8px;
   background-color: rgb(0, 0, 0);
   color: white;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-style: italic;
+  font-style: bold;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -43,19 +45,18 @@ body {
   transform: translate(-0.5rem);
   transition: 0.5s;
 }
-.myLinks{
+.myLinks {
   list-style: none;
   text-decoration: none;
-
 }
 
 /* Title */
 .headContainer h1 {
   position: relative;
-  bottom: 10px;
+  bottom: 15px;
   top: 10;
-  right: 10px;
-  padding: 1rem 2rem;
+  right: 14px;
+  padding: 1rem 1.5rem;
   font-size: xx-large;
   margin: 0;
   margin-bottom: 5%;
@@ -70,18 +71,18 @@ body {
 .headContainer input {
   display: flex;
   position: relative;
-  top: -39px;
+  top: -35px;
   left: 0;
   bottom: 0;
   margin-left: 25px;
   width: 10%;
   height: 20px;
-  border: 2px solid white;
+  border: none;
   border-radius: 50px;
   cursor: pointer;
   color: white;
   background: black;
-  padding: 0.5rem 1.5rem;
+  padding: 0.4rem 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   outline: none;
 }
@@ -140,12 +141,11 @@ body {
 
 /* Overview */
 .movie_overview {
-  
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  top:0.2;
+  top: 0.2;
   padding: 0.5rem;
   max-width: 100%;
   max-height: 100%;
@@ -160,7 +160,7 @@ body {
   font-style: oblique;
   font-variant: normal;
   font-size: small;
-  background-color: rgb(243, 235, 222);
+  background-color: white;
   transition: 1s;
   overflow: hidden;
 }
@@ -170,185 +170,193 @@ body {
 }
 
 /* Sign up page */
-.SignupInfo{
+.SignupInfo {
   display: flex;
-  background-image: url("D:\Web design course\movie-app\src\images\abdulla-faiz-eZA7lStPshc-unsplash.jpg");
+  background-image: url("D:\Web design course\movie-app\src\images\dUyCkp.jpg");
   background-position: cover;
   height: 100vh;
 }
 
 /* form info */
-.myInfo{
+.myInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color:rgba(0, 0, 0, 0.363);
-  border-radius: 35px;
-  width: 32%;
-  margin: 3em auto;
-  padding: 1em 2em 4em 2em;
-  top: 5rem;  
-
+  background-color: rgba(0, 0, 0, 0.226);
+  border-radius: 25px;
+  width: 42%;
+  margin: 5em auto;
+  padding: 1em 2em 3.5em 2em;
+  top: 1rem;
+  right: 3rem;
+  position: relative;
 }
+
 .myInfo input {
   display: flex;
-  width: 30%;
-  height: 30px;
-  border: 2px solid wheat;
-  border-radius: 40px;
+  width: 40%;
+  height: 25px;
+  border: none;
+  border-radius: 15px;
   cursor: pointer;
-  background-color: rgb(238, 224, 199);
-  padding: 1rem 4rem;
+  background-color: white;
+  padding: 0.4rem 3rem;
   font-family: Arial, Helvetica, sans-serif;
   outline: none;
+  overflow: hidden;
 }
 
-.Register{
-  padding: 15px 20px;
-  background-color: rgb(238, 224, 199);
-  color: black;
+.Register {
+  padding: 12px 10px;
+  background-color: rgb(0, 0, 0);
+  color: #e50914;
   border: none;
   border-radius: 25px;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: larger;
-  font-style: italic;
+  font-size: large;
+  font-style: bold;
   text-decoration: none;
   position: relative;
-  top:1rem;
-  
+  top: 1rem;
 }
 .Register:hover {
   background-color: orange;
+  color: black;
   transition: 0.5s;
 }
 label {
-  padding: 8px 10px;
-  font-size: larger;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: large;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600; 
-  font-style: italic;
-  color:rgb(238, 224, 199);
+  font-weight: 600;
+  font-style: bold;
+  color: white;
 }
 
 /* Go to login page */
-.LoginHere{
+.LoginHere {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: rgb(238, 224, 199);
+  color: white;
   position: relative;
-  top:35px;
+  top: 42px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-style: italic;
-  
+  font-style: bold;
 }
 
 .logLink {
-  padding: 1rem 1rem;
+  padding: 12px 10px;
   margin: 5px;
   position: relative;
-  top:5px;
+  top: 5px;
   border-radius: 60px;
-  background-color:rgb(238, 224, 199); 
-  color: black;
+  background-color: rgb(0, 0, 0);
+  color: #e50914;
   list-style: none;
   text-decoration: none;
 }
-.logLink:hover{
+.logLink:hover {
   background-color: orange;
+  color: black;
   transition: 0.5s;
 }
 
 /* login page */
-.LoginInfo{
+.LoginInfo {
   display: flex;
   background-image: url("D:\Web design course\movie-app\src\images\dUyCkp.jpg");
   background-position: cover;
   height: 100vh;
 }
 /* form info */
-.LogInfo{
+.LogInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color:rgba(0, 0, 0, 0.363);
-  border-radius: 35px;
-  width: 28%;
-  margin: 5em auto;
-  padding: 2em 2em 3em 2em;
-  top: 5rem;  
+  background-color: rgba(0, 0, 0, 0.226);
+  border-radius: 25px;
+  width: 45%;
+  margin: 7.5em auto;
+  padding: 1em 1.5em 3em 1em;
+  top: 2rem;
+  right: 2.5rem;
+  position: relative;
 }
 .LogInfo input {
   display: flex;
   width: 30%;
-  height: 30px;
-  border: 2px solid wheat;
-  border-radius: 40px;
+  height: 25px;
+  border: none;
+  border-radius: 15px;
   cursor: pointer;
-  background-color: rgb(238, 224, 199);
-  padding: 1rem 4rem;
+  background-color: white;
+  padding: 0.3rem 3rem;
   font-family: Arial, Helvetica, sans-serif;
   outline: none;
-
 }
-.Log{
-  padding: 15px 20px;
-  background-color: rgb(238, 224, 199);
-  color: black;
+.Log {
+  padding: 12px 15px;
+  background-color: rgb(0, 0, 0);
+  color: #e50914;
   border: none;
   border-radius: 25px;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: larger;
-  font-style: italic;
+  font-size: large;
+  font-style: bold;
   text-decoration: none;
   position: relative;
-  top:1rem;
+  top: 1rem;
 }
-.Log:hover{
+.Log:hover {
   background-color: orange;
+  color: black;
   transition: 0.5s;
 }
 
 /* Go to signup page */
-.SignHere{
+.SignHere {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: rgb(238, 224, 199);
+  color: white;
   position: relative;
-  top:40px;
+  top: 40px;
+  left: 3px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-style: italic;
+  font-style: bold;
 }
 
 .SignLink {
-   padding: 1rem 0.1rem;
-   margin: 5px;
-   position: relative;
-   top:5px;
-   border-radius: 60px;
-   background-color:rgb(238, 224, 199); 
-   color: black;
-   list-style: none;
-   text-decoration: none;
+  padding: 12px 10px;
+  margin: 10px;
+  position: relative;
+  top: 5px;
+  border-radius: 60px;
+  background-color: rgb(0, 0, 0);
+  color: #e50914;
+  list-style: none;
+  text-decoration: none;
 }
-.SignLink:hover{
+.SignLink:hover {
   background-color: orange;
+  color: black;
   transition: 0.5s;
 }
-.HomePage{
+.HomePage {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -357,14 +365,12 @@ label {
   cursor: pointer;
   text-decoration: none;
   list-style: none;
-
 }
 .SignAndLog {
   position: relative;
-  top: 0;
-  left: 0.5rem;
-  color: white;
+  top: -0.5rem;
+  left: 0.2rem;
+  color: #e50914;
   text-decoration: none;
   list-style: none;
-
 }

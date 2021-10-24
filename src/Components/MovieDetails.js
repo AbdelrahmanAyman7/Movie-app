@@ -1,6 +1,7 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import styles from './Details.module.css';
 import { Link } from 'react-router-dom';
+import downloadIcon from '../images/download.png'
 
 const MovieDetails = (props) => {
   const [movie, setMovie] = useState([]);  
@@ -35,6 +36,10 @@ const MovieDetails = (props) => {
               <div className = {styles.myMovie_overview}>
               <h2 id = {styles.myHead}>Overview</h2> 
               <p>{moviee.overview}</p>
+              <div className = {styles.downloadInfo}>
+              <button className = {styles.download}>Download</button>
+              <img src = {downloadIcon} className = {styles.downloadHere} alt = "./" ></img>
+              </div>
               </div>
               </div>
               </div>

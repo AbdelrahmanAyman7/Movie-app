@@ -9,6 +9,7 @@ import Login from './Components/Login';
 import Signup from './Components/Signup';
 import MovieDetails from './Components/MovieDetails';
 
+
 const App = () => {
  
   const [movies, setMovies] = useState([]); 

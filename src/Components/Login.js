@@ -19,7 +19,7 @@ const Login = (props) => {
         </div>
          <form className = {styles.LogInfo}>
 
-         <label>Username or Email</label>
+         <label>Username<br/>or Email</label>
          <input type = "text"></input>
 
          <label>Password</label>
@@ -29,7 +29,7 @@ const Login = (props) => {
          <div className = {styles.SignHere}>
          <span>Don't have an account ?</span>
          <Link className = {styles.SignLink} to = "/Signup"> 
-         <li>Create one</li>
+         <li>Signup</li>
          </Link>
          </div>
          </form>
